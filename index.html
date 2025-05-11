@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive page (JS)</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Interactive page using JS</h1>
+    </header>
+
+    <section>
+        <button id="magicBtn">Click Me!</button>
+        <p id="magicText">Click for fun feature</p>
+    </section>
+
+    <section id="gallery">
+        <img id="galleryImage" src="Photo by Ahmet Yüksek ✪ from Pexels: https://www.pexels.com/photo/red-squirrel-in-autumn-forest-setting-31536062/" alt="Gallery">
+        <button id="prevBtn">⏮️ Prev</button>
+        <button id="nextBtn">Next ⏭️</button>
+    </section>
+
+    <section class="tabs">
+        <div class="tab-buttons">
+            <button data-tab="1" class="tab active">Tab 1</button>
+            <button data-tab="2" class="tab">Tab 2</button>
+        </div>
+        <div class="tab-content" id="tab1">Coding is fun!</div>
+        <div class="tab-content hidden" id="tab2">Coding is a super-power!</div>
+    </section>
+
+    <section>
+        <form id="signupForm">
+            <h2>Signup Form</h2>
+            <label>Email: <input type="email" id="email" required /></label><br />
+            <label>Password: <input type="password" id="password" required /></label><br />
+            <small id="feedback"></small><br />
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

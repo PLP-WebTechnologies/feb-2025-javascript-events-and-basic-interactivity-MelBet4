@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #fefefe;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#magicBtn:hover {
+    background-color: #ffde59;
+    transition: 0.3s;
+}
+
+.hidden {
+    display: none;
+}
+
+.tab-buttons {
+    margin-bottom: 10px;
+}
+
+.tab.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    padding: 10px;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
